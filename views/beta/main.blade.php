@@ -296,6 +296,49 @@
             </div>
         </div>
     </section>
+    <section class="content-inner-1 bg-gray" style="background-image: url(images/background/bg3.png);">
+        <div class="container">
+            <div class="section-head style-3 text-center">
+                <h2 class="title m-t10">What Our Clients Say’s</h2>
+                <div class="dlab-separator style-2 bg-primary"></div>
+            </div>
+            <div class="testimonials-carousel2 owl-carousel owl-theme owl-none owl-theme owl-dots-primary-full wow fadeIn" data-wow-duration="2s" data-wow-delay="0.6s">
+                <div class="item">
+                    <div class="testimonial-2">
+                        <div class="testimonial-pic quote-right">
+                            <img src="assets/templates/images/testimonials/pic1.jpg" alt="">
+                        </div>
+                        <div class="testimonial-text">
+                            <p>Nullam et velit mollis, dictum eros a, vehicula turpis. Aenean feugiat congue faucibus. Nullam dapibus ex ex, vulputate gravida nisi mattis in. Duis maximus odio sed turpis vehicula auctor sit amet ut urna. Nam non libero ut ex fermentum consectetur et in dolor. Morbi tempor gravida diam nec lacinia. Suspendisse vehicula ultricies arcu.</p>
+                            <strong class="testimonial-name">Cak Dikin</strong>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="testimonial-2">
+                        <div class="testimonial-pic quote-right">
+                            <img src="assets/templates/images/testimonials/pic3.jpg" alt="">
+                        </div>
+                        <div class="testimonial-text">
+                            <p>Nullam et velit mollis, dictum eros a, vehicula turpis. Aenean feugiat congue faucibus. Nullam dapibus ex ex, vulputate gravida nisi mattis in. Duis maximus odio sed turpis vehicula auctor sit amet ut urna. Nam non libero ut ex fermentum consectetur et in dolor. Morbi tempor gravida diam nec lacinia. Suspendisse vehicula ultricies arcu.</p>
+                            <strong class="testimonial-name">Cak Dikin</strong>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="testimonial-2">
+                        <div class="testimonial-pic quote-right">
+                            <img src="assets/templates/images/testimonials/pic3.jpg" alt="">
+                        </div>
+                        <div class="testimonial-text">
+                            <p>Nullam et velit mollis, dictum eros a, vehicula turpis. Aenean feugiat congue faucibus. Nullam dapibus ex ex, vulputate gravida nisi mattis in. Duis maximus odio sed turpis vehicula auctor sit amet ut urna. Nam non libero ut ex fermentum consectetur et in dolor. Morbi tempor gravida diam nec lacinia. Suspendisse vehicula ultricies arcu.</p>
+                            <strong class="testimonial-name">Cak Dikin</strong>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <section class="content-inner">
         <div class="container">
             <div class="row align-items-center">
