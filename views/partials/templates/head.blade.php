@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
     <!-- Title -->
-    <title>Samar - HTML Template</title>
+    <title>Robokaktus</title>
 
     <!-- Favicon icon -->
     <link rel="icon" type="image/png" href="assets/templates/images/favicon.png">
