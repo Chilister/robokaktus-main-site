@@ -4,7 +4,7 @@
             <div class="row d-flex justify-content-between align-items-center">
                 <div class="dlab-topbar-left">
                     <ul>
-                        <li><i class="la la-envelope"></i> info@example.com</li>
+                        <li><a class="text-white" href="mailto:robokaktus.web@gmail.com"><i class="la la-envelope"></i>robokaktus.web@gmail.com</a></li>
                         <li><i class="la la-phone-volume"></i> +91 987-654-3210</li>
                     </ul>
                 </div>
@@ -19,12 +19,12 @@
         </div>
     </div>
     <!-- Main Header -->
-    <div class="sticky-header main-bar-wraper navbar-expand-lg">
+    <div class="sticky-header mt-3 main-bar-wraper navbar-expand-lg">
         <div class="main-bar clearfix ">
             <div class="container clearfix">
                 <!-- Website Logo -->
                 <div class="logo-header mostion">
-                    <a href="index.html"><img class="logo-2" src="assets/templates/images/logo-white.png" alt=""></a>
+                    <a href="#"><img class="logo-2 w-75" src="logo.png" alt=""></a>
                 </div>
                 <!-- Nav Toggle Button -->
                 <button class="navbar-toggler collapsed navicon justify-content-end" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -40,7 +40,7 @@
                 </div>
                 <div class="header-nav navbar-collapse collapse justify-content-end" id="navbarNavDropdown">
                     <div class="logo-header">
-                        <a href="index.html"><img src="assets/templates/images/logo-2.png" alt=""></a>
+                        <a href="index.html"><img class="w-50" src="logo.png" alt=""></a>
                     </div>
                     <div class="dlab-social-icon">
                         <ul>
