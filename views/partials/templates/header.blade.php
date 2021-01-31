@@ -1,19 +1,18 @@
 <header class="site-header mo-left header-transparent">
     <div class="container">
-        <div class="top-bar">
+        <div class="top-bar py-0">
             <div class="row d-flex justify-content-between align-items-center">
                 <div class="dlab-topbar-left">
                     <ul>
                         <li><a class="text-white" href="mailto:robokaktus.web@gmail.com"><i class="la la-envelope"></i>robokaktus.web@gmail.com</a></li>
-                        <li><i class="la la-phone-volume"></i> +91 987-654-3210</li>
                     </ul>
                 </div>
                 <div class="dlab-topbar-right">
-                    <ul class="dlab-social-icon">
-                        <li><a class="fa fa-facebook" href="javascript:void(0);"></a></li>
-                        <li><a class="fa fa-instagram" href="javascript:void(0);"></a></li>
-                        <li><a class="fa fa-twitter" href="javascript:void(0);"></a></li>
-                    </ul>
+                    <div class="extra-nav">
+                        <div class="extra-cell">
+                            <a href="#contact-form" class="btn btn-light rounded-xl shadow">Замовити сайт</a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -32,12 +31,6 @@
                     <span></span>
                     <span></span>
                 </button>
-                <!-- Extra Nav -->
-                <div class="extra-nav">
-                    <div class="extra-cell">
-                        <a href="contact-us-2.html" class="btn btn-light rounded-xl shadow">Get A Quote</a>
-                    </div>
-                </div>
                 <div class="header-nav navbar-collapse collapse justify-content-end" id="navbarNavDropdown">
                     <div class="logo-header">
                         <a href="index.html"><img class="w-50" src="logo.png" alt=""></a>

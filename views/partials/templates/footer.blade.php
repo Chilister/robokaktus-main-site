@@ -1,18 +1,10 @@
-<footer class="site-footer style-2" id="footer">
+<footer class="site-footer style-3" id="footer" style="background-image: url(assets/templates/images/background/bg11.png), var(--gradient-sec); background-size: cover, 200%; ">
+    <!-- footer bottom part -->
     <div class="footer-bottom">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-lg-6 col-md-7 text-left">
-                    <span class="copyright-text">Copyright © 2020 <a href="https://dexignzone.com/" target="_blank">DexignZone</a>. All rights reserved.</span>
-                </div>
-                <div class="col-lg-6 col-md-5 text-right">
-                    <div class="dlab-social-icon">
-                        <ul>
-                            <li><a class="fa fa-facebook" href="javascript:void(0);"></a></li>
-                            <li><a class="fa fa-instagram" href="javascript:void(0);"></a></li>
-                            <li><a class="fa fa-twitter" href="javascript:void(0);"></a></li>
-                        </ul>
-                    </div>
+                <div class="col-md-12 text-center">
+                    <span class="copyright-text"><a href="http://robokaktus.top/" target="_blank">Robokaktus</a></span>
                 </div>
             </div>
         </div>
