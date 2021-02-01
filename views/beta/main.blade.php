@@ -66,8 +66,7 @@
     <section class="content-inner">
         <div class="container">
             <div class="section-head style-1 text-center">
-                <h6 class="sub-title bgl-primary m-b20 text-primary">Team</h6>
-                <h2 class="title">Our Best Expertise</h2>
+                <h2 class="title">Наша команда</h2>
             </div>
             <div class="row">
                 <div class="col-lg-12">
