@@ -20,35 +20,21 @@
             </div>
         </div>
         <div class="dz-media">
-            <img src="assets/images/custom/baneer.jpg" class="move-2" alt="">
+            <img src="{{ \Helper::phpThumb($documentObject['main_image'], 'f=webp,w=899,h=899,zc=1,bg=FFFFFF,q=75')}}" class="move-2" alt="">
         </div>
     </div>
-    <section class="content-inner about-wraper-1">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-6 m-b30 wow fadeInLeft" data-wow-duration="2s" data-wow-delay="0.2s">
-                    <div class="dz-media">
-                        <img src="assets/images/custom/kaktus.jpg" alt="">
-                    </div>
-                </div>
-                <div class="col-lg-6 m-b30 wow fadeInRight" data-wow-duration="2s" data-wow-delay="0.4s">
-                    <div class="section-head style-2">
-                        <h6 class="sub-title text-primary">About Us</h6>
-                        <div class="dlab-separator style-1"></div>
-                        <h2 class="title m-b20">We Have Creative Team To Build Your Business Website Better</h2>
-                        <p>Proin laoreet leo vel enim gravida, at porttitor metus ultricies. Cras eu velit enim. Vivamus blandit, dolor ut aliquet rutrum, ex elit mattis sapien, non molestie felis neque et nulla. Sed euismod turpis id nibh suscipit semper. Pellentesque dapibus risus arcu.</p>
-                    </div>
-                    <ul class="list-check primary m-b30">
-                        <li>Suspendisse ullamcorper mollis orci in facilisis.</li>
-                        <li>Etiam orci magna, accumsan varius enim volutpat.</li>
-                        <li>Donec fringilla velit risus, in imperdiet turpis euismod quis.</li>
-                        <li>Aliquam pulvinar diam tempor erat pellentesque, accumsan mauri.</li>
-                    </ul>
-                    <a href="javascript:void(0);" class="btn btn-primary rounded-xl gradient">Learn More</a>
-                </div>
-            </div>
-        </div>
-    </section>
+    @foreach(json_decode($documentObject['about'], true)['fieldValue'] as $section)
+        @include('partials.components.about', [
+               'image' => $section['image'],
+               'title' => $section['title'],
+               'description' => $section['description'],
+               'longtitle' => $section['longtitle'],
+               'o_field' => $section['o_field'],
+               's_field' => $section['s_field'],
+               't_field' => $section['t_field'],
+               'f_field' => $section['f_field'],
+               ])
+    @endforeach
     <section class="content-inner-2" style="background-image: url(assets/templates/images/background/bg1.png);">
         <div class="container">
             <div class="section-head style-1 text-center">
@@ -68,28 +54,15 @@
             </div>
         </div>
     </section>
-    <section class="content-inner">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-6 m-b30 wow fadeInLeft" data-wow-duration="2s" data-wow-delay="0.2s">
-                    <div class="dz-media">
-                        <img src="assets/templates/images/about/img4.png" class="move-1" alt="">
-                    </div>
-                </div>
-                <div class="col-lg-6 m-b30 wow fadeInRight" data-wow-duration="2s" data-wow-delay="0.4s">
-                    <div class="section-head style-1 mb-4">
-                        <h6 class="sub-title bgl-primary m-b20 text-primary">About Us</h6>
-                        <h2 class="title">How We Can Help You Achieve Your Business Goal</h2>
-                    </div>
-                    <p>Integer pretium molestie nisl, non blandit lectus suscipit in. Vivamus tellus diam, iaculis eget nulla sit amet, tincidunt consectetur sem. Suspendisse laoreet, quam sed faucibus feugiat, tortor velit suscipit orci, sed consectetur ante eros id urna. Mauris luctus nulla ut pharetra tempor.</p>
-                    <p class="m-b30">Mauris egestas eleifend sapien eu malesuada. Phasellus at metus eget sapien tristique accumsan non sit amet augue.</p>
-                    <img src="assets/templates/images/sign.png" alt="">
-                    <h4 class="m-b30">CEO Jhone Doe</h4>
-                    <a href="about-us-1.html" class="btn btn-link d-inline-flex align-items-center"><i class="fa fa-angle-right m-r10"></i>Learn More</a>
-                </div>
-            </div>
-        </div>
-    </section>
+    @foreach(json_decode($documentObject['dispute'], true)['fieldValue'] as $disp)
+        @include('partials.components.dispute', [
+               'image' => $disp['image'],
+               'title' => $disp['title'],
+               'f_desc' => $disp['f_desc'],
+               's_desc' => $disp['s_desc'],
+               'longtitle' => $disp['longtitle'],
+        ])
+    @endforeach
     <section class="content-inner">
         <div class="container">
             <div class="section-head style-1 text-center">
@@ -162,43 +135,38 @@
             <div class="row align-items-center">
                 <div class="col-lg-6 m-b30 wow fadeInLeft" data-wow-duration="2s" data-wow-delay="0.2s">
                     <div class="dlab-media">
-                        <img src="assets/templates/images/about/img8.png" class="move-1" alt="">
+                        <img src="{{ \Helper::phpThumb('assets/templates/images/about/img8.png', 'f=webp,w=657,h=653,zc=1,bg=FFFFFF,q=75')}}" class="move-1" alt="">
                     </div>
                 </div>
                 <div class="col-lg-6 m-b30 wow fadeInRight" data-wow-duration="2s" data-wow-delay="0.4s">
                     <form class="dlab-form style-1">
                         <div class="section-head style-3">
-                            <h2 class="title m-t10">Get In Touch With Us</h2>
+                            <h2 class="title m-t10">Будь в тренді</h2>
                             <div class="dlab-separator style-2 bg-primary"></div>
                         </div>
                         <div class="row">
                             <div class="col-sm-12">
                                 <div class="input-group">
-                                    <input type="text" class="form-control" placeholder="Full Name">
+                                    <input type="text" class="form-control" placeholder="ФІО">
                                 </div>
                             </div>
                             <div class="col-sm-12">
                                 <div class="input-group">
-                                    <input type="text" class="form-control" placeholder="Email Address">
+                                    <input type="text" class="form-control" placeholder="Електрона пошта">
                                 </div>
                             </div>
                             <div class="col-sm-12">
                                 <div class="input-group">
-                                    <input type="text" class="form-control" placeholder="Phone No.">
+                                    <input type="text" class="form-control" placeholder="Номер телефону">
                                 </div>
                             </div>
                             <div class="col-sm-12">
                                 <div class="input-group">
-                                    <input type="text" class="form-control" placeholder="Project Title">
+                                    <textarea class="form-control">Повідомлення</textarea>
                                 </div>
                             </div>
                             <div class="col-sm-12">
-                                <div class="input-group">
-                                    <textarea class="form-control">Message</textarea>
-                                </div>
-                            </div>
-                            <div class="col-sm-12">
-                                <button type="submit" class="btn btn-corner gradient btn-block btn-primary">Submit Now</button>
+                                <button type="submit" class="btn btn-corner gradient btn-block btn-primary">Замовити сайт</button>
                             </div>
                         </div>
                     </form>

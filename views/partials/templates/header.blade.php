@@ -2,7 +2,10 @@
     <div class="container">
         <div class="top-bar py-0">
             <div class="row d-flex justify-content-between align-items-center">
-                <div class="dlab-topbar-left">
+                <div class="dlab-topbar-left d-flex align-items-center">
+                    <div class="logo-header mostion">
+                        <a href="#"><img class="logo-2 w-50" src="logo.png" alt=""></a>
+                    </div>
                     <ul>
                         <li><a class="text-white" href="mailto:robokaktus.web@gmail.com"><i class="la la-envelope"></i>robokaktus.web@gmail.com</a></li>
                     </ul>
@@ -17,35 +20,4 @@
             </div>
         </div>
     </div>
-    <!-- Main Header -->
-    <div class="sticky-header mt-3 main-bar-wraper navbar-expand-lg">
-        <div class="main-bar clearfix ">
-            <div class="container clearfix">
-                <!-- Website Logo -->
-                <div class="logo-header mostion">
-                    <a href="#"><img class="logo-2 w-75" src="logo.png" alt=""></a>
-                </div>
-                <!-- Nav Toggle Button -->
-                <button class="navbar-toggler collapsed navicon justify-content-end" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </button>
-                <div class="header-nav navbar-collapse collapse justify-content-end" id="navbarNavDropdown">
-                    <div class="logo-header">
-                        <a href="index.html"><img class="w-50" src="logo.png" alt=""></a>
-                    </div>
-                    <div class="dlab-social-icon">
-                        <ul>
-                            <li><a class="fa fa-facebook" href="javascript:void(0);"></a></li>
-                            <li><a class="fa fa-twitter" href="javascript:void(0);"></a></li>
-                            <li><a class="fa fa-linkedin" href="javascript:void(0);"></a></li>
-                            <li><a class="fa fa-instagram" href="javascript:void(0);"></a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Main Header End -->
 </header>

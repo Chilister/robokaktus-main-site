@@ -1,7 +1,7 @@
 <div class="item wow fadeInUp" data-wow-duration="2s" data-wow-delay="0.1s">
     <div class="dlab-team style-1 m-b10">
         <div class="dlab-media">
-            <a href="javascript:void(0);"><img src="{{$image}}" alt=""></a>
+            <a href="javascript:void(0);"><img src="{{ \Helper::phpThumb($image, 'f=webp,w=350,h=400,zc=1,bg=FFFFFF,q=75')}}" alt=""></a>
         </div>
         <div class="dlab-content">
             <div class="clearfix">
