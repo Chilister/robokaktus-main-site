@@ -5,7 +5,7 @@
         </div>
         <div class="dlab-content">
             <div class="clearfix">
-                <h4 class="dlab-name"><a href="{{$instagram}}" title="instagram">a{{$name}}</a></h4>
+                <h4 class="dlab-name"><a href="{{$instagram}}" title="instagram">{{$name}}</a></h4>
                 <span class="dlab-position">{{$position}}</span>
             </div>
             <ul class="dlab-social-icon primary-light">
