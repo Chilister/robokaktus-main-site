@@ -26,5 +26,9 @@ $settings['fields'] = array(
         'caption' => 'Longtitle',
         'type' => 'text'
     ),
+    'link' => array(
+        'caption' => 'Link',
+        'type' => 'text'
+    ),
 );
 

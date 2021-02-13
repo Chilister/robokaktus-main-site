@@ -1,9 +1,9 @@
 <section class="content-inner">
     <div class="container">
-        <div class="row align-items-center">
+        <div class="row align-items-center flex-row-reverse">
             <div class="col-lg-6 m-b30 wow fadeInLeft" data-wow-duration="2s" data-wow-delay="0.2s">
                 <div class="dz-media">
-                    <img src="{{ \Helper::phpThumb($image, 'f=webp,w=700,h=700,zc=1,bg=FFFFFF,q=75')}}" class="move-1 rounded" style="box-shadow: 0 0 13px 0 rgba(50, 50, 50, 0.75);" alt="">
+                    <img src="{{ \Helper::phpThumb($image, 'f=webp,w=700,h=700,zc=1,bg=FFFFFF,q=75')}}" style="box-shadow: 0 0 13px 0 rgba(50, 50, 50, 0.75);" class="move-1 rounded" alt="">
                 </div>
             </div>
             <div class="col-lg-6 m-b30 wow fadeInRight" data-wow-duration="2s" data-wow-delay="0.4s">

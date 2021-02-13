@@ -3,7 +3,7 @@
         <div class="row align-items-center">
             <div class="col-lg-6 m-b30 wow fadeInLeft" data-wow-duration="2s" data-wow-delay="0.2s">
                 <div class="dz-media">
-                    <img src="{{ \Helper::phpThumb($image, 'f=webp,w=900,h=600,zc=1,bg=FFFFFF,q=75')}}" alt="">
+                    <img src="{{ \Helper::phpThumb($image, 'f=webp,w=900,h=600,zc=1,bg=FFFFFF,q=75')}}" alt="Фото автора сайту">
                 </div>
             </div>
             <div class="col-lg-6 m-b30 wow fadeInRight" data-wow-duration="2s" data-wow-delay="0.4s">

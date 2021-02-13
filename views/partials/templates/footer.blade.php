@@ -1,5 +1,4 @@
-<footer class="site-footer style-3" id="footer" style="background-image: url(assets/templates/images/background/bg11.png), var(--gradient-sec); background-size: cover, 200%; ">
-    <!-- footer bottom part -->
+<footer class="site-footer style-3" id="footer" style="background-image: url(/assets/templates/images/background/bg11.png), var(--gradient-sec); background-size: cover, 200%; ">
     <div class="footer-bottom">
         <div class="container">
             <div class="row align-items-center">
@@ -10,5 +9,4 @@
         </div>
     </div>
 </footer>
-<!-- Footer End -->
 <button class="scroltop icon-up" type="button"><i class="fa fa-arrow-up"></i></button>
