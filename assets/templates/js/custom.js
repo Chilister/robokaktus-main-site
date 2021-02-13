@@ -298,25 +298,7 @@ var Samar = function(){
 	}
 	
 	/* Header Fixed ============ */
-	var headerFix = function(){
-		'use strict';
-		/* Main navigation fixed on top  when scroll down function custom */		
-		jQuery(window).on('scroll', function () {
-			if(jQuery('.sticky-header').length > 0){
-				var menu = jQuery('.sticky-header');
-				if ($(window).scrollTop() > menu.offset().top) {
-					menu.addClass('is-fixed');
-					$('.site-header .container > .logo-header .logo').attr('src','images/logo.png');
-					$('.site-header .container > .logo-header .logo-2').attr('src','images/logo-2.png');
-					$('.site-header .container > .logo-header .logo-3').attr('src','images/logo-3.png');
-				} else {
-					menu.removeClass('is-fixed');
-					$('.site-header .container > .logo-header .logo, .site-header .container > .logo-header .logo-2, .site-header .container > .logo-header .logo-3').attr('src','images/logo-white.png')
-				}
-			}
-		});
-		/* Main navigation fixed on top  when scroll down function custom end*/
-	}
+
 	
 	/* Masonry Box ============ */
 	var masonryBox = function(){
@@ -586,7 +568,6 @@ var Samar = function(){
 			scrollTop();
 			footerAlign();
 			fileInput();
-			headerFix();
 			handleVideo();
 			handleFilterMasonary();
 			handleCountDown(WebsiteLaunchDate);
@@ -628,6 +609,11 @@ jQuery(document).ready(function() {
 	
 	jQuery('.navicon').on('click',function(){
 		$(this).toggleClass('open');
+	});
+	$("a.contact-form").click(function(){
+		const _href = $(this).attr("href");
+		$("html, body").animate({scrollTop: $(_href).offset().top+"px"});
+		return false;
 	});
 	
 	/* jQuery('#faqSpecifications .card-header a').on('mouseover',function(){

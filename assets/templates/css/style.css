@@ -15138,7 +15138,8 @@ icon-bx-wraper style-4:hover .icon-cell i,
   top: 0;
   left: 0;
   box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.1);
-  background: #fff;
+  background: #ffffffb0;
+  backdrop-filter: blur(10px);
   transition: all 0.5s; }
 
 @media only screen and (max-width: 991px) {
